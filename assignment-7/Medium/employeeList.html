@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Directory</title>
+</head>
+<body>
+    <h2>Search Employee</h2>
+    <form action="EmployeeServlet" method="get">
+        <label for="empId">Employee ID:</label>
+        <input type="text" name="empId" id="empId">
+        <input type="submit" value="Search">
+    </form>
+
+    <h2>Or View All Employees</h2>
+    <form action="EmployeeServlet" method="get">
+        <input type="submit" value="View All">
+    </form>
+</body>
+</html>
